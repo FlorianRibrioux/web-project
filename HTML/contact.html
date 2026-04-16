@@ -6,6 +6,8 @@
         <title>ECSD - Contact</title>
         <link rel="icon" href="../data/LOGO_EFREI_WEB_bleu.png" type="image/png">
         <link rel="stylesheet" href="../CSS/style.css">
+        <script src="../JS/contact.js"></script>
+        <script src="../JS/maps.js"></script>
     </head>
     <body>
         <header>
@@ -21,7 +23,30 @@
         </header>
 
         <main>
+            <h1 id="contact-us">Contact Us</h1>
+            <p id="contact-instructions"> If you have any questions, please enter your information below:</p>
+            <form id="contact-form">
+                <label for="name">Name:*</label>
+                <input type="text" id="name" name="name" required>
 
+                <label for="surname">Surname:*</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="email">Email:*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number">
+
+                <label for="message">Message:*</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" onclick="submitInformation(), test()">Send Message</button>
+                <p id="stars-note">* Required fields</p>
+            </form>
+
+            <h1 id="location">Where you can find us:</h1>
+            <p id="address">30-32 Av. de la République, 94800 Villejuif</p>
         </main>
 
         <footer>
