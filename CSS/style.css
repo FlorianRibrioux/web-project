@@ -121,11 +121,16 @@ footer {
 
     .mobile-header-nav {
         background-color: #f5f5f5;
+        display:none;
         position: fixed;
         width: 100%;
         top: var(--header-height);
         border-bottom:2px solid rgba(0, 0, 0, 0.1);
         border-top:2px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .mobile-header-nav.active {
+        display:block;
     }
 
     .mobile-header-nav-list {
@@ -156,5 +161,10 @@ footer {
         flex-direction: column;
         gap: 10px;
         padding: 10px;
+    }
+
+    main {
+        justify-content: center;
+        text-align: center;
     }
 }

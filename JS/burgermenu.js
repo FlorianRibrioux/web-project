@@ -1,10 +1,12 @@
 function toggleMenu() {
     var menu = document.querySelector('.mobile-header-nav');
     if (!menu) return;
-    var display = window.getComputedStyle(menu).display;
-    if (display === 'block') {
-        menu.style.display = 'none';
-    } else {
-        menu.style.display = 'block';
+
+    menu.classList.toggle('active');
+
+    var icon = document.querySelector('.icon i');
+    if (icon) {
+        icon.classList.toggle('fa-bars');
+        icon.classList.toggle('fa-times');
     }
 }
