@@ -6,6 +6,8 @@
         <title>ECSD - Contact</title>
         <link rel="icon" href="../data/LOGO_EFREI_WEB_bleu.png" type="image/png">
         <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../js/burgermenu.js"></script>
         <script src="../js/contact.js"></script>
         <script src="../js/maps.js"></script>
     </head>
@@ -20,7 +22,18 @@
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+            </a>
         </header>
+        <nav class="mobile-header-nav">
+                <ul class="mobile-header-nav-list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="teachers.html">Teachers</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+        </nav>
 
         <main>
             <h1 id="contact-us">Contact Us</h1>
@@ -55,7 +68,7 @@
                 <a href="contact.html" class="footer-link">Contact us</a>
             </div>
             <p class="footer-copy">&copy; TI402I Web project - Mathieu Prince and Florian Ribrioux</p>
-            <img src="../data/LOGO_EFREI_WEB_bleu.png" alt="ECSD Logo" class="footer-logo">
+            <a href="https://www.efrei.fr"><img src="../data/LOGO_EFREI_WEB_bleu.png" alt="ECSD Logo" class="footer-logo"></a>
         </footer>
     </body>
 </html>
