@@ -9,6 +9,10 @@ html, body {
     --header-height: 80px;
 }
 
+main {
+    padding: 0 20px;
+}
+
 header {
     display: flex;
     position: fixed;
@@ -170,3 +174,22 @@ footer {
         text-align: center;
     }
 }
+
+#map {
+    width: 90%;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+#form-contact {
+    display: block;
+    
+    border-radius: 5px;
+}
+
+#contact-us {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
