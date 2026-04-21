@@ -42,18 +42,29 @@
                 <legend id="contact-us">Contact Us</legend>
                 <p id="contact-instructions"> If you have any questions, please enter your information below:</p>
                 <form id="contact-form">
-                    <label for="name">Name:*</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="surname">Surname:*</label>
-                    <input type="text" id="surname" name="surname" required>
-                    <label for="email">Email:*</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="phone-number">Phone Number:</label>
-                    <input type="tel" id="phone-number" name="phone-number">
-                    <label for="message">Message:*</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit" onclick="submitInformation(), test()">Send Message</button>
+                    <p>
+                        <label for="name">Name:*</label>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="surname">Surname:*</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:*</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </p>
+                    <p>
+                        <label for="message">Message:*</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </p>
                     <p id="stars-note">* Required fields</p>
+                    <button type="submit" id="submit-contact" onclick="submitInformation()">Send Message</button>
+                    
                 </form>
             </fieldset>
 
