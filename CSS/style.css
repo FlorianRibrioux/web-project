@@ -13,6 +13,14 @@ main {
     padding: 0 20px;
 }
 
+#home-main {
+    padding:0px
+}
+
+#home-main section {
+    margin-bottom: 40px;
+}
+
 header {
     display: flex;
     position: fixed;
@@ -70,6 +78,7 @@ footer {
     cursor:pointer;
     content:stretch;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 .footer-logo {
@@ -276,3 +285,55 @@ footer {
 #location, #address {
     text-align: center;
 }
+
+#home-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
+    background-color: #163767;
+}
+
+#home-section img {
+    width: 50%;
+    object-fit:cover
+}
+
+#home-section #home-section-text-cont {
+    color:white;
+    justify-content: center;
+}
+
+#home-section-2 {
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#stats-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #163767;
+    color: white;
+    height: 25vh;
+}
+
+#stats-section .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-section-info {
+    display:flex;
+    justify-content: space-between;
+    gap:10%;
+    padding:0 20px;
+}
+
+#home-section-info img {
+    width:50%;
+    object-fit: contain;
+}
+
