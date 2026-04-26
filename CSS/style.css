@@ -247,7 +247,21 @@ footer {
     .stat i {
         font-size: 2rem;
     }
+
+    #home-section {
+        flex-direction: column;
+    }
+
+    #home-section img,
+    #home-section #home-section-text-cont {
+        width: 100%;
+    }
+
+    #learn-more-button {
+        align-self: center;
+    }
 }
+
 
 #map {
     width: 90%;
@@ -314,7 +328,7 @@ footer {
 #submit-contact {
     display: block;
     margin: 10px auto;
-    background-color: #147BBF;
+    background-color: var(--primary-color);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -325,7 +339,8 @@ footer {
 }
 
 #submit-contact:hover {
-    background-color: #FF92D6;
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
 }
 
 #stars-note {
@@ -351,7 +366,7 @@ footer {
 #home-section {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 20px;    
     padding-right: 20px;
     background-color: #163767;
 }
@@ -362,12 +377,40 @@ footer {
 }
 
 #home-section #home-section-text-cont {
-    color:white;
-    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: justify;
-    line-height: 25px;
-    width:50%;
-    font-size: 16px;
+    width: 50%;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#home-section #home-section-text-cont h1 {
+    text-align: center;
+    font-size:40px;
+}
+
+#home-section #home-section-text-cont p {
+    padding:0 10%;
+    line-height: 30px;
+}
+
+#learn-more-button {
+    align-self: flex-end;
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#learn-more-button:hover {
+    background-color: #FF92D6;
+    transform: scale(1.05);
 }
 
 #home-section-2 {
