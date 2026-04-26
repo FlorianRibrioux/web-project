@@ -51,6 +51,11 @@ header {
 
 .header-logo {
     width: 10em;
+    transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+    transform:scale(1.05)
 }
 
 .header-nav-list {
@@ -83,11 +88,17 @@ footer {
 
 .footer-logo {
     width: 10em;
+    transition: transform 0.3s ease;
+}
+
+.footer-logo:hover {
+    transform:scale(1.05)
 }
 
 .footer-left-content {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .footer-left-content a {
@@ -167,6 +178,7 @@ footer {
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
+    transition: transform 0.3s ease;
 }
 
 #learn-more-button:hover {
@@ -336,8 +348,19 @@ footer {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-#location, #address {
+#location {
     text-align: center;
+}
+
+#address {
+    display:block;
+    text-decoration: underline;
+    color: black;;
+    text-align: center;
+}
+
+#address:hover {
+    color: var(--secondary-color);
 }
 
 /* Mobile styles */
