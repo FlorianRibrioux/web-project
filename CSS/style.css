@@ -363,6 +363,29 @@ footer {
     color: var(--secondary-color);
 }
 
+/* Teachers page styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 400px;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
 /* Mobile styles */
 @media (max-width: 600px) {
     header {
