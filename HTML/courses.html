@@ -35,6 +35,68 @@
 
         <main>
 
+            <div id="carousel">
+                <button class="nav-btn left-btn" id="prevBtn" onclick="moveLeft()">❮</button>
+                <button class="nav-btn right-btn" id="nextBtn" onclick="moveRight()">❯</button>
+                <div id="courses-container"> 
+                    <div id="card1" class="course-card" onclick="toggleCard(this)">
+                        <img src="placeholder.jpg" alt="Course Image" class="course-image" style="width: 100%;">
+                        <div class="content">
+                            <h2>Web Development</h2>
+                            <p class="base-description">Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Build responsive websites and web applications.</p>
+                        </div>
+                        <div class="content additional-info">
+                            <p>Prerequisites: None</p>
+                            <p>Duration: 10 weeks</p>
+                        </div>
+                    </div>
+                    <div id="card2" class="course-card" onclick="toggleCard(this)">
+                        <img src="placeholder.jpg" alt="Course Image" class="course-image" style="width: 100%;">
+                        <div class="content">
+                            <h2>Data Science</h2>
+                            <p class="base-description">Explore data analysis, machine learning, and statistical modeling. Gain hands-on experience with Python and popular data science libraries.</p>
+                        </div>
+                        <div class="content additional-info">
+                            <p>Prerequisites: Basic programming knowledge, statistics.</p>
+                            <p>Duration: 12 weeks</p>
+                        </div>
+                    </div>
+                    <div id="card3" class="course-card" onclick="toggleCard(this)">
+                        <img src="placeholder.jpg" alt="Course Image" class="course-image" style="width: 100%;">
+                        <div class="content">
+                            <h2>Cybersecurity</h2>
+                            <p class="base-description">Understand the principles of cybersecurity, including network security, cryptography, and ethical hacking. Learn how to protect systems and data from cyber threats.</p>
+                        </div>
+                        <div class="content additional-info">
+                            <p>Prerequisites: Basic networking knowledge.</p>
+                            <p>Duration: 10 weeks</p>
+                        </div>
+                    </div>
+                    <div id="card4" class="course-card" onclick="toggleCard(this)">
+                        <img src="placeholder.jpg" alt="Course Image" class="course-image" style="width: 100%;">
+                        <div class="content">
+                            <h2>Artificial Intelligence</h2>
+                            <p class="base-description">Dive into the world of artificial intelligence, covering topics such as natural language processing, computer vision, and deep learning. Develop AI models and applications.</p>
+                        </div>
+                        <div class="content additional-info">
+                            <p>Prerequisites: Basic programming knowledge, mathematics.</p>
+                            <p>Duration: 14 weeks</p>
+                        </div>
+                    </div>
+                    <div id="card5" class="course-card" onclick="toggleCard(this)">
+                        <img src="placeholder.jpg" alt="Course Image" class="course-image" style="width: 100%;">
+                        <div class="content">
+                            <h2>Mobile App Development</h2>
+                            <p class="base-description">Learn how to create mobile applications for Android and iOS platforms. Explore app design, development, and deployment using popular frameworks.</p>
+                        </div>
+                        <div class="content additional-info">
+                            <p>Prerequisites: Basic programming knowledge.</p>
+                            <p>Duration: 12 weeks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../js/courses.js"></script>
         </main>
 
         <footer>
@@ -45,5 +107,6 @@
             <p class="footer-copy">&copy; TI402I Web project - Mathieu Prince and Florian Ribrioux</p>
             <a href="https://www.efrei.fr"><img src="../data/LOGO_EFREI_WEB_bleu.png" alt="ECSD Logo" class="footer-logo"></a>
         </footer>
+        
     </body>
 </html>
