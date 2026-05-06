@@ -41,7 +41,7 @@
             <fieldset id="form-contact">
                 <legend id="contact-us">Contact Us</legend>
                 <p id="contact-instructions"> If you have any questions, please enter your information below:</p>
-                <form id="contact-form">
+                <form id="contact-form" onsubmit="submitInformation(event)">
                     <p>
                         <label for="name">Name:*</label>
                         <input type="text" id="name" name="name" required>
@@ -63,7 +63,7 @@
                         <textarea id="message" name="message" required></textarea>
                     </p>
                     <p id="stars-note">* Required fields</p>
-                    <button type="submit" id="submit-contact" onclick="submitInformation()">Send Message</button>
+                    <button type="submit" id="submit-contact">Send Message</button>
                     
                 </form>
             </fieldset>
