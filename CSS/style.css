@@ -417,13 +417,6 @@ footer {
     cursor:pointer;
 }
 
-    #home-section {
-        padding: 0px;
-    }
-
-    #typing-text {
-        font-size: 3rem;
-    }
 .more-button:hover {
     background-color: #FF92D6;
     transform: scale(1.05);
@@ -660,5 +653,9 @@ footer {
 
     #home-section {
         padding: 0px;
+    }
+
+    #typing-text {
+        font-size: 3rem;
     }
 }
