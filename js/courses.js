@@ -9,13 +9,13 @@ function manageButtons() {
         leftBtn.style.display = "none";
         rightBtn.style.display = "none";
     } else {
-        if (container.scrollLeft <= 0) {
+        if (container.scrollLeft <= 100) {
             leftBtn.style.display = "none";
         } else {
             leftBtn.style.display = "flex";
         }
 
-        if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 5) {
+        if (container.scrollLeft + 100 + container.clientWidth >= container.scrollWidth - 5) {
             rightBtn.style.display = "none";
         } else {
             rightBtn.style.display = "flex";
