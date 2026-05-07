@@ -272,6 +272,8 @@ footer {
 
 h2 span {
     color: var(--secondary-color);
+}
+
 #typing-text {
     position: fixed;
     top: 0;
@@ -731,6 +733,8 @@ h2 span {
 
     #home-section-info-text-cont {
         max-width: 100%;
+    }
+
     #typing-text {
         font-size: 3rem;
     }
