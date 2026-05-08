@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
+var txt = 'Welcome to the ECSD website!';
 var speed = 50;
 
 function typeWriter() {
