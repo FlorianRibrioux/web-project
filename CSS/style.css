@@ -616,7 +616,7 @@ h2 span {
 .about-container {
     display: flex;
     flex-direction: column;
-    gap: 80px; /* Increased gap between rows */
+    gap: 80px;
 }
 
 .row-container {
@@ -626,7 +626,6 @@ h2 span {
     justify-content: center;
 }
 
-/* Flips the second row on desktop for Z-pattern layout */
 .row-container.reverse {
     flex-direction: row-reverse;
 }
@@ -641,7 +640,7 @@ h2 span {
     height: 450px;
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 15px 15px 0px var(--primary-color); /* Stylized shadow */
+    box-shadow: 15px 15px 0px var(--primary-color);
     transition: transform 0.3s ease;
 }
 
