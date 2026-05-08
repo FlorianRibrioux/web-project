@@ -530,6 +530,17 @@ h2 span {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
+#teachers-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin:2%;
+    color: var(--tertiary-color); 
+}
+
+#teachers-title span {
+    color: var(--secondary-color);
+}
+
 /* Cards CSS */
 
 #courses-container {

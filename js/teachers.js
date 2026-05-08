@@ -6,7 +6,7 @@ function teachers() {
     const detailsCard = document.createElement('div');
     detailsCard.classList.add('details-card');
     detailsCard.innerHTML = `
-        <img src="../data/${teacher}.jpg" alt="${teacher}" class="details-image">
+        <img src="../data/${teacher.replace(/\s/g, '')}.jpg" alt="${teacher}" class="details-image">
         <h2>${teacher}</h2>
         <p>${bio}</p>
         <button onclick="CloseDetails()">Close</button>
