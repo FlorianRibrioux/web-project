@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
+var txt = 'Welcome to the Computer Science Department of EFREI!';
 var speed = 50;
 
 function typeWriter() {
@@ -10,7 +10,7 @@ function typeWriter() {
         disableScroll();
         
     } else {
-        setTimeout(function() {
+        var fadeOut = setTimeout(function() {
             var typingText = document.getElementById("typing-text");
             var opacity = 1;
             setInterval(function() {
@@ -19,8 +19,8 @@ function typeWriter() {
                 opacity = 0;
                 typingText.style.display = "none";
                 clearInterval(fadeOut);
+                enableScroll();
             }
-            enableScroll();
             typingText.style.opacity = opacity;
             }, 5);
         }, 500);
