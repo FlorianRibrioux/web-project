@@ -740,6 +740,14 @@ h2 span {
     text-align: justify;
 }
 
+#about-both {
+    margin-top:10%;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: center;
+}
+
 /* Mobile styles */
 @media (max-width: 600px) {
     header {
@@ -866,7 +874,7 @@ h2 span {
 
     .row-container, 
     .row-container.reverse {
-        flex-direction: column; /* Stack vertically on mobile */
+        flex-direction: column;
         gap: 20px;
     }
 
