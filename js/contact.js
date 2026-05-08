@@ -14,7 +14,7 @@ submitInformation = function(event) {
     }
 
     if (!validateEmail(document.getElementById("email").value)) {
-        alert("Please enter a valid email address.");
+        alert("Please enter a valid email address. Under the format: example@domain.com");
         document.getElementById("email").focus();
         return;
     }
