@@ -168,9 +168,13 @@ footer {
     padding: 20px;
 }
 
-#home-section #home-section-text-cont h1 {
+#main-title {
     text-align: center;
-    font-size:40px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    color: white; 
 }
 
 #home-section #home-section-text-cont p {

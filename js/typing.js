@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Welcome to the Computer Science Department of EFREI!';
+var txt = ' Welcome to the Computer Science Department of EFREI! ';
 var speed = 50;
 
 function typeWriter() {
